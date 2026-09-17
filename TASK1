@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	double number1;
+	double number2;
+	double result;
+	printf("Enter number 1 :");
+	scanf("%lf",&number1);
+	printf("Enter number 2 :");
+	scanf("%lf",&number2);
+	result=number1+number2;
+	printf("The result of addition of number 1 and number 2 is %.3lf.",result);
+}
+	

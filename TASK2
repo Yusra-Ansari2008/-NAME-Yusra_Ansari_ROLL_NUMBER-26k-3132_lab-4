@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	double obtained_marks;
+	double total_marks;
+	double percentage;
+	printf("Enter obtained marks:");
+	scanf("%lf",&obtained_marks);
+	printf("Enter total marks:");
+	scanf("%lf",&total_marks);
+	percentage=(obtained_marks/total_marks)*100;
+	printf("The percentage of the student is %.3lf.",percentage);
+}
